@@ -1,0 +1,25 @@
+nav.nav2 {
+  border-bottom: 2px solid var( --color-primary );
+}
+
+nav.nav2, nav.nav2 > ul > li {
+  border-top-left-radius:  15px;
+  border-top-right-radius: 15px;
+}
+
+nav.nav2 > ul > li:nth-child(1) {
+  margin-left: auto;
+}
+
+nav.nav2 > ul > li {
+  width:            6rem;
+  height:           100%;
+  padding:          1em;
+ 
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  color:           var(--color-secondary );
+
+  transition:      300ms;
+}

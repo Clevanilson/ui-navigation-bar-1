@@ -1,0 +1,21 @@
+nav.nav1 {
+  border-radius: 50px;
+}
+
+nav.nav1 > ul {
+  position:        relative;
+  justify-content: space-evenly;
+}
+
+nav.nav1 > ul > span {
+  width:            30px;
+  height:           4px;
+  border-radius:    50px;
+  background-color: var( --color-primary );
+  position:         absolute;
+  bottom:           5px;
+
+  display: block;
+
+  transition: 300ms;
+}

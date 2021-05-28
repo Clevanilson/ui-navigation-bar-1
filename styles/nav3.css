@@ -1,0 +1,32 @@
+nav.nav3 {
+  border-radius: 15px;
+}
+
+nav.nav3 > ul {
+  padding-left: 1rem;
+  position:     relative;
+  z-index:      1;
+}
+
+nav.nav3 > ul > span {
+  height:           75%;
+  width:            6rem;
+  background-color: var( --color-primary );
+  position:         absolute;
+  z-index:          -1;
+  border-radius:    15px;
+
+  transition: 300ms;
+}
+
+nav.nav3 > ul > li {
+  width:   6rem;
+  height:  100%;
+  padding: 1em;
+ 
+  display:         flex;
+  align-items:     center;
+  justify-content: center;
+  color:           var(--color-secondary );
+  transition:      300ms;
+}
